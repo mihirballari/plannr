@@ -78,7 +78,7 @@ export default function HomePage() {
                     <input
                       type="text"
                       placeholder="e.g. CS, Math"
-                      defaultValue="Mathematics"
+                      defaultValue=""
                       className="w-full px-3 py-2 border border-red-200 rounded-md focus:border-red-500 focus:ring-red-500 focus:outline-none bg-white/80"
                     />
                   </div>
