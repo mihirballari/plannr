@@ -2,6 +2,8 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import PlanForm from "../components/planForm";
+
 
 export default function HomePage() {
   return (
@@ -67,28 +69,7 @@ export default function HomePage() {
             {/* Soft glow background */}
             <div className="absolute inset-0 bg-gradient-to-r from-red-100/30 via-red-50/40 to-red-100/30 blur-3xl transform scale-110"></div>
 
-            <Card className="max-w-2xl mx-auto border-2 border-red-100 shadow-2xl backdrop-blur-sm bg-white/95 relative">
-              <CardContent className="p-8 space-y-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-6">Speedrun your academic planning</h3>
-
-                <div className="grid gap-6 md:grid-cols-1">
-                  {/* Major Selection */}
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Major</label>
-                    <input
-                      type="text"
-                      placeholder="e.g. CS, Math"
-                      defaultValue=""
-                      className="w-full px-3 py-2 border border-red-200 rounded-md focus:border-red-500 focus:ring-red-500 focus:outline-none bg-white/80"
-                    />
-                  </div>
-                </div>
-
-                <Button className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 text-lg shadow-lg">
-                  Plan
-                </Button>
-              </CardContent>
-            </Card>
+            <PlanForm/>
           </div>
 
           {/* Class Search Form */}

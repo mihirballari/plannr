@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Plannr - Academic Planning for Rutgers Students",
+  title: "Plannr",
   description: "Streamline your academic planning with Plannr - the unified tool for Rutgers students",
     generator: 'v0.dev'
 }
